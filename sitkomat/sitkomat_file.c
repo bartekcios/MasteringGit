@@ -21,3 +21,4 @@ int main()
 		printf("sum of randoms lower or equals 6\n");
 	}
 }
+}
