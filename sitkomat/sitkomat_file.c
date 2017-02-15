@@ -11,5 +11,5 @@ int random_int(int max)
 int main()
 {
 	srand(time(NULL));
-	printf("Hello World\n %d\n", random(2) + random(10));
+	printf("%d\n", random_int(2) + random_int(10));
 }
