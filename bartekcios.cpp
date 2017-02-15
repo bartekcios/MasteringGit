@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
+#include <time.h>
 
 int random(int max)
 {
@@ -9,5 +10,6 @@ int random(int max)
 
 int main()
 {
+	srand(time(NULL));
 	printf("%d\n", random(10));
 }
