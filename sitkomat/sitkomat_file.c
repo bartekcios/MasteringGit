@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-int random(int max)
+// function returnes random value less than max value
+int random_int(int max)
 {
 	return rand() % max;
 }
@@ -10,5 +11,5 @@ int random(int max)
 int main()
 {
 	srand(time(NULL));
-	printf("Hello World\n %d\n", random(10));
+	printf("Hello World\n %d\n", random_int(10));
 }
