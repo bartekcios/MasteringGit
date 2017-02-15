@@ -24,14 +24,9 @@ int random_int(int max)
 	return rand() % max;
 }
 
-void init_rand()
-{
-	srand(time(NULL));
-}
-
 int main()
 {
-	init_rand();
+	srand(time(NULL));
 	int a = random_int(2);
 	int b = random_int(10);
 	int sum = a + b;
