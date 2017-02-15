@@ -2,7 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 
+<<<<<<< HEAD
 // function returnes modulo value
+=======
+// function returnes modulo value in magic way
+>>>>>>> 708c7caefcc330c20ef7e9a33ec43a3bd96aa83d
 int modulo_int(int value1, int value2)
 {
 	int result = 0;
@@ -31,7 +35,7 @@ void init_rand()
 
 int main()
 {
-	init_rand();
+	srand(time(NULL));
 	int a = random_int(2);
 	int b = random_int(10);
 	int sum = a + b;
