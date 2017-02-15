@@ -11,7 +11,7 @@ int random_int(int max)
 int main()
 {
 	srand(time(NULL));
-	int sum = random(2) + random(10);
+	int sum = random_int(2) + random_int(10);
 	if (sum > 6)
 	{
 		printf("sum of randoms higher than 6\n");
